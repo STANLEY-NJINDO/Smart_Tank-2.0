@@ -2,11 +2,11 @@
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>   // Universal Telegram Bot Library written by Brian Lough: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
 #include <ArduinoJson.h>
-const char* ssid = "Sammy";
-const char* password = "99569956";
+const char* ssid = "*******";//insert wifi name and password here respectivley
+const char* password = "**********";
 
-#define BOTtoken "6732342422:AAF6sXZsC4VjfENH7Am9ORdF7pvQSvU6QMg"
-#define CHAT_ID "6276629846"
+#define BOTtoken "**********:*******************"
+#define CHAT_ID "**************"//use your respective chat ID and Bot token here 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 // Checks for new messages every 1 second.
